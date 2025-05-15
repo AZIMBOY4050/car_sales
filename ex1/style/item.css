@@ -1,0 +1,76 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    background-color: #fff;
+    margin: 40px auto 20px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-container img {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-container h3,
+.card-container h4 {
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+form.form-horizontal {
+    margin: 0 auto 40px auto;
+    margin-top: 10px;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-horizontal .form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-horizontal .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: border-color 0.3s;
+    margin-bottom: 15px;
+}
+
+.form-horizontal .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.btn-default {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.btn-default:hover {
+    background-color: #0056b3;
+    color: white;
+}
