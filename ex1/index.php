@@ -24,6 +24,9 @@
         Not registered yet? <a href="register.php">Click here</a>
     </p> 
  
+      <p class="register-link">
+        Not registered yet? <a href="register.php">Click here</a>
+    </p> 
 </div>
 
 </body>
